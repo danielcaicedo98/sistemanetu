@@ -1,6 +1,14 @@
-*.properties
-jdbc
-jdbc.properties
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+
+propiedades/
+
 # Compiled class file
 *.class
 
@@ -21,16 +29,9 @@ jdbc.properties
 *.zip
 *.tar.gz
 *.rar
-
+*.xml
 propiedades
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-nbactions.xml
-nb-configuration.xml

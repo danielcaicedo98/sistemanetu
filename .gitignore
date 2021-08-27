@@ -7,7 +7,7 @@ nbactions.xml
 nb-configuration.xml
 
 NetU_ServidorCami\src\propiedades
-
+jdbc
 # Compiled class file
 *.class
 

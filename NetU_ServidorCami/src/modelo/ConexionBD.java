@@ -22,7 +22,7 @@ public class ConexionBD {
     
 
     public static Connection coneccion;
-    static final ResourceBundle rb = ResourceBundle.getBundle("modelo.jdbc");
+    static final ResourceBundle rb = ResourceBundle.getBundle("propiedades.jdbc");
     static final String driver = rb.getString("driver");
     static final String user = rb.getString("usr");
     static final String password = rb.getString("pwd");

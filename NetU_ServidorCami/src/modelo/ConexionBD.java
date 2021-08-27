@@ -19,7 +19,7 @@ import java.sql.SQLException;
  */
 public class ConexionBD {
     
-
+//probando la vuelta
     public static Connection coneccion;
     static final String driver = "com.mysql.cj.jdbc.Driver";
     static final String user = "root";

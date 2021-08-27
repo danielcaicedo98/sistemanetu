@@ -24,4 +24,4 @@ hs_err_pid*
 
 # connection settings with bd
 
-jdbc.a
+jdbc

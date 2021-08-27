@@ -12,6 +12,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ResourceBundle;
 
 /**
  *
@@ -21,11 +22,13 @@ public class ConexionBD {
     
 
     public static Connection coneccion;
-    static final String driver = "com.mysql.cj.jdbc.Driver";
-    static final String user = "root";
-    static final String password = "";
-    static final String url = "jdbc:mysql://localhost:3306/sistemanetu?serverTimezone=UTC";
+    static final ResourceBundle rb = ResourceBundle.getBundle("modelo.jdbc");
+    static final String driver = rb.getString("driver");
+    static final String user = rb.getString("usr");
+    static final String password = rb.getString("pwd");
+    static final String url = rb.getString("url");
 
+    
     public static void Conectar() {
 
         try {

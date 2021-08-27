@@ -6,9 +6,7 @@ nbdist/
 nbactions.xml
 nb-configuration.xml
 
-
-
-propiedades
+jdbc.properties
 
 # Compiled class file
 *.class

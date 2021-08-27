@@ -1,3 +1,4 @@
+propiedades/jdbc
 nbproject/private/
 build/
 nbbuild/
@@ -6,8 +7,8 @@ nbdist/
 nbactions.xml
 nb-configuration.xml
 
-
-propiedades/
+modelo
+ConexionBD
 
 # Compiled class file
 *.class
